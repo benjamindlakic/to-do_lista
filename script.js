@@ -12,7 +12,7 @@ var date = date.getDate();
 
 addBtn.addEventListener('click', function () {
 
-    if (document.getElementById('write-task').value == '') {
+    if (document.getElementById('write-task').value === '') {
         alert('Kindly Enter The Task First');
     } else {
 
